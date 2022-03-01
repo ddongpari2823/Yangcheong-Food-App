@@ -1,0 +1,86 @@
+html {
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: #161719;
+}
+
+#container {
+  height: auto;
+  min-height: 100%;
+}
+
+footer {
+  color: white;
+  position: fixed;
+  bottom: 0;
+}
+
+#title {
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  position: relative;
+  top: 80px;
+}
+
+#root {
+  color: white;
+  position: relative;
+  text-align: center;
+  top: 150px;
+}
+
+#menus {
+  border-radius: 8px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+  background-color: white;
+  color: black;
+}
+
+@media (max-width: 575px) {
+  #menus {
+    border-radius: 8px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+  }
+}
+
+.circle:nth-child(1) {
+  height: 20px;
+  width: 20px;
+  margin: 5px;
+  background-color: #ff5f57;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.circle:nth-child(2) {
+  height: 20px;
+  width: 20px;
+  margin: 5px;
+  background-color: #ffbc2d;
+  border-radius: 50%;
+  display: inline-block;
+}
+.circle:nth-child(3) {
+  height: 20px;
+  width: 20px;
+  margin: 5px;
+  background-color: #26c83e;
+  border-radius: 50%;
+  display: inline-block;
+}
